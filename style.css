@@ -9,6 +9,7 @@ body {
 }
 section {
   display: flex;
+  margin-bottom: 80px;
 }
 .half-portion {
   width: 50%;
@@ -22,7 +23,7 @@ section {
 .link-button {
   text-decoration: none;
   background-image: linear-gradient(rgb(189, 120, 42), rgb(250, 33, 33));
-  border-radius: 10%;
+  border-radius: 7px;
   font-weight: 700;
   padding: 7px 22px;
   color: white;
@@ -30,4 +31,11 @@ section {
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+  
+}
+.section2 {
+  display: flex;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
