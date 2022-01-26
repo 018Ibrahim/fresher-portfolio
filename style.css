@@ -7,14 +7,15 @@ body {
 .orange {
   color: orange;
 }
-section {
+.flexible-container{
   display: flex;
   margin-bottom: 80px;
 }
-.half-portion {
+.half-portion  {
   width: 50%;
   padding-left: 50px;
   font-size: 4;
+  
 }
 .half-portion img {
   padding-top: 25px;
@@ -33,9 +34,24 @@ section {
   background-repeat: no-repeat;
   
 }
-.section2 {
-  display: flex;
+ .section2 {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
-}
+ }
+ .last-part{
+   background-image: url(images/exp-bg.png);
+   background-repeat: no-repeat;
+   background-position: left;
+ }
+ .exp-item{
+   width: 40%;
+   margin-left: 5%;
+   margin-right: 5%;
+   border-radius: 4px;
+   box-shadow: 10px 10px 35px grey; 
+ }
+ 
+ footer p {
+   text-align: center;
+ }
